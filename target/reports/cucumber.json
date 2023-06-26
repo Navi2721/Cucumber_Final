@@ -1,0 +1,159 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-23T14:20:48.579Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4319000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefination.TechfiosePage()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "techfios-functionality-validation;sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set SkyBlue Background\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.StepDefination.button_exists(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6088000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button",
+            "match": {
+              "location": "steps.StepDefination.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "steps.StepDefination.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-23T14:20:59.131Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2752000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefination.TechfiosePage()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "White Background Change",
+        "description": "",
+        "id": "techfios-functionality-validation;white-background-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"Set SkyWhite Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set SkyWhite Background\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.StepDefination.button_exists(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6149000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the button",
+            "match": {
+              "location": "steps.StepDefination.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "steps.StepDefination.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios functionality validation",
+    "description": "",
+    "id": "techfios-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CucumberFinal.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
